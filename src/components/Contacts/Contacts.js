@@ -1,14 +1,15 @@
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
 
 const Contacs = () => {
   return (
     <Section id='about'>
-      <SectionTitle> About me </SectionTitle>
+      <SectionTitle> Get in touch </SectionTitle>
       <SectionText> 
-        Hello! My name is Gianpierangelo and I enjoy creating things that live on the internet.
-        My interest in web development started back when I was a kid as I wanted to create my own video game and website!
+        My inbox is always open and I'm currently looking to discuss new opportunities. 
+        Whether you have a question or just want to say hi, I'll try my best to get back to you!
       </SectionText>
+      <Button onClick={() => window.location = 'mailto:dplgian@gmail.com'}>Say Hello</Button>
     </Section>
   )
 }
