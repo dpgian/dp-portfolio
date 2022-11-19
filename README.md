@@ -1,5 +1,5 @@
 ## Personal Portfolio
-![Portfolio Website](https://ibb.co/vhTp5tv)
+![Portfolio Website](https://i.ibb.co/zFBpckH/localhost-3000-1.png)
 
 ## Introduction
 This is my personal portfolio website.
